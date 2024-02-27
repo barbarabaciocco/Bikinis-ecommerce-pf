@@ -1,0 +1,10 @@
+/* Estilos generales del widget 
+.cart-widget {
+    width: 4%; /* Ajusta el ancho del widget según sea necesario 
+    padding: 0px;
+*/
+  /* Estilos específicos para la imagen */
+.cart-img {
+    width: 5%; /* Hace que la imagen no supere el ancho del contenedor */
+    height: 5%; /* Mantiene la proporción de aspecto de la imagen */
+}
