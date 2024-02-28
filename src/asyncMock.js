@@ -4,7 +4,7 @@ const products = [
         name: 'Bikini Alaska',
         price: 10000,
         category: 'Bikinis',
-        img:'',
+        img:'https://acdn.mitiendanube.com/stores/002/198/553/products/53236ae3-adde-44b3-b876-8b2217051cf2-d0b3e37498deb7987317065700549496-1024-1024.webp',
         stock: 30,
         description: 'Bikini blanca, reversible con flores'
     },

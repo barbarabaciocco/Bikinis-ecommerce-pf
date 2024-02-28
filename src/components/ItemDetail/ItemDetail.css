@@ -1,0 +1,30 @@
+.ItemDetail {
+    background-color: #fff; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.ImageContainer {
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+.ImageContainer img {
+    max-width: 100%; /* Ajustar la imagen al ancho del contenedor */
+    border-radius: 5px; /* Borde redondeado para la imagen */
+}
+
+.Title {
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+.Description {
+    font-size: 16px; /* Tamaño del texto de la descripción */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+.Price {
+    font-size: 20px; /* Tamaño del texto del precio */
+    font-weight: bold; /* Texto en negrita */
+}

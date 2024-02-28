@@ -1,11 +1,24 @@
-.counter-container {
-    text-align: center;
-    margin: 20px;
+.ItemCount {
+    display: flex; /* Mostrar elementos en línea */
+    align-items: center; /* Alinear verticalmente al centro */
 }
 
-button {
-    padding: 10px;
-    font-size: 16px;
-    margin-top: 10px;
-    cursor: pointer;
+.CounterInput {
+    width: 50px; /* Ancho del campo de entrada */
+    text-align: center; /* Alinear el texto al centro */
+    margin: 0 10px; /* Margen a la izquierda y derecha */
+}
+
+.CounterButton {
+    background-color: #d5bdaf; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    width: 30px; /* Ancho del botón */
+    height: 30px; /* Altura del botón */
+    cursor: pointer; /* Cambiar el cursor al puntero */
+}
+
+.CounterButton:hover {
+    background-color: #b39b8e; /* Color de fondo al pasar el mouse */
 }

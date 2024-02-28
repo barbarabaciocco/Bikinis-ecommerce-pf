@@ -1,0 +1,32 @@
+.NavBar {
+    background-color: #d5bdaf; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    display: flex; /* Mostrar los elementos en línea */
+    justify-content: space-between; /* Distribuir los elementos horizontalmente */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+.NavBar h3 {
+    margin: 0; /* Eliminar el margen superior e inferior */
+    font-size: 24px; /* Tamaño del texto del título */
+    color: #fff; /* Color del texto blanco */
+}
+
+.Categories {
+    display: flex; /* Mostrar los elementos en línea */
+}
+
+.Option,
+.ActiveOption {
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Eliminar subrayado */
+    margin-right: 20px; /* Espaciado entre las opciones */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para los enlaces activos */
+.ActiveOption {
+    color: #edede9; /* Color del texto para el enlace activo */
+    text-decoration: underline; /* Subrayado */
+}
+

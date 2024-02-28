@@ -1,0 +1,21 @@
+.Item {
+    background-color: #fff; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.Item img {
+    max-width: 100%; /* Ajustar la imagen al ancho del contenedor */
+    border-radius: 5px; /* Borde redondeado para la imagen */
+}
+
+.Item h2 {
+    font-size: 18px; /* Tamaño del título */
+    margin-top: 10px; /* Margen superior */
+}
+
+.Item p {
+    font-size: 14px; /* Tamaño del texto */
+    margin-top: 5px; /* Margen superior */
+}

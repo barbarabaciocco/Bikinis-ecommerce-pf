@@ -1,3 +1,25 @@
+.CartWidget {
+  display: flex; /* Mostrar elementos en línea */
+  align-items: center; /* Alinear verticalmente al centro */
+  text-decoration: none; /* Eliminar subrayado */
+  color: #fff; /* Color del texto */
+}
+
+.CartImg {
+  width: 30px; /* Ancho de la imagen del carrito */
+  margin-right: 5px; /* Margen a la derecha de la imagen */
+}
+
+.CartQuantity {
+  background-color: #d5bdaf; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  border-radius: 50%; /* Borde redondeado */
+  padding: 5px 8px; /* Espaciado interno */
+  font-size: 14px; /* Tamaño del texto */
+}
+
+
+
 /* Estilos generales del widget 
 .cart-widget {
     width: 4%; /* Ajusta el ancho del widget según sea necesario 
